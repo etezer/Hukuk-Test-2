@@ -1,0 +1,198 @@
+
+
+
+<!-- Baslangic-->
+
+*::before
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section,
+span,
+p { 
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background-image: url(image/tokmak2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.header-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+ul{
+    display: flex;
+} 
+
+li{
+    margin-left: 27px;
+}
+
+a{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.header-text{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transform: translateX (-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 100;
+     line-height: 1;
+     letter-spacing: 1px;
+     font-family: 'Herr Von Muellerhoff', cursive;
+     color: #745b37;
+}
+
+h3{
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+.btn-girisyap{
+    display: block;
+    background-color: rgba(172, 83, 20, 0.623);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.btn-girisyap ::after{
+    content: "Giriş Yap";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(75, 35, 7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+    position: relative;
+}
+.btn-girisyap:hover ::after{
+    top: 0;
+}
+
+.btn-uyeol{
+    display: block;
+    background-color: rgba(172, 83, 20, 0.623);
+    color: #fff;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.btn-uyeol ::after{
+    content: "Üye Ol";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(75, 35, 7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.btn-uyeol:hover ::after{
+    top: 0;
+}
+
+.card-danismanlik{
+    width: 200px;
+    height: 230px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(image/themis.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card-akademi{
+    width: 200px;
+    height: 230px;
+    margin: 30px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(image/kitapik.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card:hover{
+    transform-origin: 10px;
+}
+
+h5{
+    color: #fff;
+    text-shadow: (0,0,5px #999);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+
+}
+
+
